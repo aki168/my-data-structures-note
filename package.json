@@ -1,0 +1,17 @@
+{
+  "name": "my-data-structures-note",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "lint": "jest --config test/jest.lint.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.4"
+  }
+}
